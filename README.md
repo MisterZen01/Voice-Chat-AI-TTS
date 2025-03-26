@@ -51,7 +51,7 @@ character_id = "ID"
 ``` bash
 speaker = "USER"
 ```
-- **Example**: Replace `NAME` with MisterZen, or however you want the AI to recognize you by.
+- **Example**: Replace `USER` with how you want the AI to recognize you by (i.e. MisterZen).
 6. Set the Voice Name by replacing "NAME" with the character's voice name:
 ``` bash
 voice_name = "NAME"
