@@ -34,9 +34,31 @@ pip install pytchat pygame PyCharacterAI RealtimeSTT
 ```
 2. Replace the default YouTube video ID in the script with your live stream video ID:
 ``` bash
-video_id = "your_video_id_here"
+video_id = "ID"
 ```
 - **Note**: Your video ID is found in the URL: youtube.com/live/**WRb7TC2k1cQ**
+3. Set your Token by replacing "TOKEN" with your actual API token:
+``` bash
+token = "TOKEN"
+```
+- **Note**: Your `TOKEN` can be found using the guide in the PyCharacterAI Github, under [Additional Documentation](#additional-documentation)
+4. Set your character ID's by replacing "ID" with the character's unique ID:
+``` bash
+character_id = "ID"
+```
+- **Note**: The character ID is found in the URL: character.ai/chat/**vmZa-_m5BORlTH0EA-9tx-a5fiHjPzzGlR63T9DaVQE**
+5. Set the speaker's name by replacing "USER" with your desired speaker name:
+``` bash
+speaker = "USER"
+```
+- **Example**: Replace `NAME` with MisterZen, or however you want the AI to recognize you by.
+6. Set the Voice Name by replacing "NAME" with the character's voice name:
+``` bash
+voice_name = "NAME"
+```
+- **Example**: Replace `NAME` with Goku, or whichever voice you want the AI to use.
+
+### **Final Note**: Ensure you have valid credentials for video_id, token, character_id, and voice_name from the appropriate API or configuration.
 
 ## Usage
 Once set up, the script will begin listening for live YouTube chat messages. When a viewer types a message or when the user's speech mentions a(n) `allowed-word`, the script will process it and have the AI respond to it aloud.
@@ -46,7 +68,6 @@ Viewers type a message like Hello, *Character*! in the chat. The PyCharacterAI r
 
 ## Compatibility
 - **Works with YouTube**: The script is tested and optimized for use with YouTube live streams.
-- **TTS Engine Compatibility**: Works with pyttsx3 for offline TTS, or can be configured to use gTTS or other cloud-based APIs for a more natural voice.
 - **OS Compatibility**: Compatible with Windows, using Visual Studio Code, not yet tested on macOS or Linux.
 
 ## Additional Documentation
