@@ -1,0 +1,16 @@
+Roadmap
+-This roadmap outlines the planned features and improvements for YouTube Live Chat and Realtime Speech-to-Text interation integration. These enhancements aim to expand functionality and improve user experience.
+
+Future Changes (TBA):
+- Have two AI's be able to communicate with each other
+- Eventually replace PyCharacterAI with a simple lightweight deep learning ai model
+- Maybe add a Text-to-Speech (TTS) function for YouTube Live Chat to speak before the AI replies back
+- The TTS function for YouTube Live Chat would be customizable using the user's choice of voice (would fill in voice_name and/or client.utils.search_voices())
+- Have the character be able to shout, whisper, and have a more variable voice when speaking
+- Find better voice models other than Character.AI
+- Prevent AI's reponses from being cutoff mid-sentence
+- Being able to upload voices (I think that's a feauture in PyCharacterAI using client.utils.upload_voice)
+- Have the AI be able to see what's on the User's screen
+- Have the AI be able to see through the the User's webcam
+- Have an AI avatar pop up on screen when speaking when streaming and for enterainment purposes (for streamers)
+- Make code compatible with Twitch Livestreams and Discord Servers
