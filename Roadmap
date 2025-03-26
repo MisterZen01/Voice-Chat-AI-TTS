@@ -14,3 +14,4 @@ Future Changes (TBA):
 - Have the AI be able to see through the the User's webcam
 - Have an AI avatar pop up on screen when speaking when streaming and for enterainment purposes (for streamers)
 - Make code compatible with Twitch Livestreams and Discord Servers
+- Make voice_name work with pyttsx3 for offline TTS, and be configured to use edge_tts for a more natural voice. (Note: gTTS was too laggy for the script)
